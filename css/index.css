@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-img {
+    background-image: url('../image/the-kulan-cuisine-is.jpg');
+    height: 500px;
+    background-attachment: scroll;
+    background-color: black;
+    
+
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    background-color: blue;
+    opacity: 0.8;
+    position: fixed;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+}
+.navbar img{
+    padding-bottom: 0px;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+.dropdown .btn {
+    margin-left: -150px;
+    color: white;
+    border: 2px solid white;
+}
+.navbar-links {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    flex-wrap: wrap;
+}
+.navbar-links a{
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.document{
+    text-align: center;
+    margin: 50px 250px 50px 250px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .locate{
+      margin-top: 40px;
+  }
+  .container-1{
+      display: flex;
+      flex-direction: row;
+      height: 350px;
+      margin: 0px 0px 50px 200px
+  }
+  .text{
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    
+  }
+  .text h4{
+    margin: 50px 0px 0px 50px;
+    font-size: 20px;
+    width: 250px;
+  }
+  .text p {
+    margin: 20px 0px 0px 50px;
+    width: 320px;
+  }
+  .text a{
+      margin: 70px 0px 0px 50px;
+      padding-top: 20px;
+  }
+  .text1{
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+  }
+  .text1 h4{
+    margin: 50px 0px 0px 50px;
+    font-size: 20px;
+    width: 250px;
+  }
+  .text1 p {
+    margin: 20px 0px 0px 50px;
+    width: 320px;
+  }
+  .text1 a{
+      margin: 70px 0px 0px 50px;
+      padding-top: 20px;
+  }
+  .container2{
+      text-align: center;
+      margin-left: 290px;
+      width: 700px;
+  }
+  .container2 p{
+      margin-top: 40px;
+  }
+  
