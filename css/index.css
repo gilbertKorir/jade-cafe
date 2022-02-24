@@ -110,3 +110,97 @@
       margin-top: 40px;
   }
   
+
+  @media only screen and (max-width: 400px) {
+      .navbar img{
+          display: none;
+          width: 100%;
+          height: auto;
+      }
+      .navbar-links a{
+          color: blue;
+          height: auto;
+
+      }
+      .document{
+          width: 100%;
+          margin-left: 0px;
+      }
+      .document h2{
+          text-align: center;
+          font-size: 15px;
+          margin-left: 10px;
+          width: 280px;
+      }
+      .document p{
+          width: 280px;
+          text-align: center;
+          margin-left: 10px;
+      }
+      .locate{
+          width: 280px;
+          
+      }
+      .container-1{
+          width: 100%;
+          margin-left: 0px;
+          flex-wrap: wrap;
+          height: auto;
+          border: none;
+          text-align: center;
+      }
+      .container-1 .text h4{
+        margin-left: 0px;
+        width: 300px;
+        text-align: center;
+    }
+    .container-1 .text a{
+        margin-left: 0px;
+        width: 300px;
+        text-align: center;
+    }
+    .container-1 .text1 a{
+        margin-left: 0px;
+        width: 300px;
+        text-align: center;
+    }
+    
+    
+    .container-1 .text1 h4{
+        margin-left: 0px;
+        width: 300px;
+        text-align: center;
+    }
+    
+    
+      .container-1 .text p{
+          margin-left: 0px;
+          width: 300px;
+          text-align: center;
+      }
+      .container-1 .text1 p{
+        margin-left: 0px;
+        width: 300px;
+        margin-right: 20px;
+        text-align: center;
+    }
+    
+      .container2{
+          width: 100%;
+          margin-left: 0px;
+          height: auto;
+          overflow: hidden;
+          text-align: center;
+      }
+      .container2 p{
+          width: 300px;
+          margin-left: 10px;
+          font-size: 10px;
+          text-align: center;
+      }
+      .container2 h3{
+          font-size: 15px;
+          text-align: center;
+          margin-left: -40px;
+      }
+  }
